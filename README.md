@@ -31,9 +31,9 @@ Para instalar o numpy usando o anaconda, você pode rodar o seguinte comando
  
 `conda install numpy`
  
-O que mais vamos usar do Numpy são os Numpy Arrays, vetores ou matrizes.
+O que mais vamos usar do Numpy são os Numpy Arrays, como vetores ou matrizes.
  
-Ta aqui um exemplo de como pode ser criado
+Ta aqui um exemplo de como pode ser criado:
  
 <img src="/Images/numpy.png" alt="numpy image"/>
  
@@ -58,14 +58,59 @@ No curso nos aprofundamos em alguns tópicos, como
 - Operations
 - Data input and output
  
+As Series sao bem parecidas com NumPy array, a diferença e que a Serie pode  ser indexado por rótulo alem dos tipos numéricos. Ele também não precisa conter dados numéricos, ele pode conter qualquer objeto Python arbitrário. Por exemplo:
+
+<img src="/Images/serie.png" alt="serie image"/>
+
+Um dos recursos mais utilizados do Pandas são os DataFrames, eles são como um monte de objetos Series reunidos para compartilhar o mesmo índice. Eles possuem essa aparencia aqui:
+
+<img src="/Images/dataframe.png" alt="dataframe image"/>
+
 ### Matplotlib
- 
  
 É uma das mais famosas libraries para construção de gráficos em python. Funciona muito bem com numpy e pandas. Com ele é possível construir vários tipos de gráficos.
  
 Para instalar
  
 `conda install matplotlib`
+
  
-No matplotlib.org é possível encontrar instruções e exemplos de como fazer tudo.
+No [matplotlib.org](https://matplotlib.org/) é possível encontrar instruções e exemplos de como fazer muitos gráficos.
  
+### Seaborn
+
+Seaborn é uma library de graficos estatisticos, foi construido para trabalhar bem com os Dataframes do pandas.
+
+Para instalar:
+
+`conda install seaborn`
+
+Seaborn é um projeto open source e pode ser encontrado no git hub [Git-Seaborn](https://github.com/mwaskom/seaborn)
+
+E a sua documentação oficial pode ser encontrada em [Seaborn](https://seaborn.pydata.org/)
+
+Alguns tipos de gráficos que podem ser construídos com ele são:
+
+- histplot
+- jointplot
+- pairplot
+- rugplot
+- kdeplot
+
+### Plotly e Cufflinks
+
+O Plotly é uma library que nos permite criar gráficos com vizualização interativa e o Cufflinks permite realizar a conexão entre o plotly e pandas. Para instalá-las:
+
+`pip install plotly`
+
+e
+
+`pip install cufflinks`
+
+No web site do [Plotly](https://plotly.com/) é possivel subir um dashboard com todas as vizualições que estamos trabalhando.
+E no [Cufflinks git hub](https://github.com/santosjorge/cufflinks) é possível encontrar mais informações sobre essa library.
+
+## Projetos
+
+Ao final do curso realizei dois projetos propostos pelo instrutor, eles estao na pasta DataVisualization/Projects. Estes projetos tiveram por finalidade analisar dados para trazer respostas aos problemas expostos. O primeiro é um projeto do 911 que apresenta dados das chamadas feitas para esse serviço para analisar de qual região são realizadas as chamadas, motivo, entre outras coisas. O segundo realiza uma análise exploratória de ativos de importantes bancos norte americanas durante a crise financeira do ano de 2016.
+
