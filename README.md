@@ -12,7 +12,7 @@ Além desse curso, estudei alguns conteúdos por tutoriais no canal do Youtube d
 
 Tableau faz parte de um dos conteúdos que queria muito estudar, ela é uma ferramenta bem importante nessa parte de analise de dados, com ela é possível criar gráficos e construir dashboard bem interativos. Os Dashboards criados podem ser upados no própio site do [Tableau Public](https://www.tableau.com/). Lá também tem informações das versões disponíveis para download de acordo com o seu sistema operacional.
 
-Nesse [link](https://public.tableau.com/app/profile/gabriella6718/viz/AirBnbFullProject_16462318058180/Dashboard1) criei um Dashboard seguindo o tutorial de Alex, utilizando uma base de dados da AirBnb que está disponível no [Kaggle](https://www.kaggle.com/datasets).
+Nesse [link](https://public.tableau.com/app/profile/gabriella6718/viz/AirBnbFullProject_16462318058180/Dashboard1) criei um Dashboard seguindo um tutorial de Alex sobre Tableau, utilizando uma base de dados da AirBnb que está disponível no [Kaggle](https://www.kaggle.com/datasets).
 
 ## Data Analysis and Visualization
  
