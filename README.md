@@ -2,17 +2,15 @@
  
 Neste repo vou compartilhar os meus estudos em Data Science. Subdivido em dois pontos, que são: Data Analysis e alguns tópicos de Machine Learning.
 O meu foco inicial e principal é Data Analysis, é sobre esse universo que quero me especializar um pouco mais.
-Todo o conteúdo que aprendi faz parte de um curso da Udemy chamado [Python for Data Science and Machine Learning Bootcamp](https://www.udemy.com/course/python-for-data-science-and-machine-learning-bootcamp). Esse curso é subdividido em Data Analysis/Visualization e Machine Learning.
+O conteúdo que venho estudando faz parte de um curso da Udemy chamado [Python for Data Science and Machine Learning Bootcamp](https://www.udemy.com/course/python-for-data-science-and-machine-learning-bootcamp). Esse curso é subdividido em Data Analysis/Visualization e Machine Learning, os exercícios que fiz podem ser vistos na pasta de DataVisualization/Exercises. 
+Além desse curso, estudei alguns conteúdos por tutoriais no canal do Youtube de [Alex](https://www.youtube.com/c/AlexTheAnalyst/videos). Ele trabalha como Data Analyst e tem um conteúdo muito bom sobre o Tableau e SQL.
  
-## Anaconda
- 
-O recurso que utilizei para gerar os gráficos e realizar as análises foi o Jupyter Notebook, que é o ambiente de desenvolvimento muito popular nessa área.
-Esse environment está disponível na Anaconda. Todas as informações para fazer o seu download estão no site [Anaconda](https://www.anaconda.com/).
-Ela faz o download da versão do python que integra bem com essa versão que será instalada, além de incluir várias libraries, então não precisa se preocupar em instalar o python previamente.
-Os environments são apresentados dessa forma no Anaconda
- 
-<img src="/Images/conda.png" alt="conda image"/>
- 
+# Tableau
+
+Tableau faz parte de um dos conteúdos que queria muito estudar, ela é uma ferramenta bem importante dessa parte de analise de dados, com ela é possível criar gráficos e construir dashboard bem interativos.
+Os Dashboards criados podem ser upados no própio site do [Tableau Public](https://www.tableau.com/). Lá também tem informações das versões disponíveis para download de acordo com o seu sistema operacional.
+Nesse [link](https://public.tableau.com/app/profile/gabriella6718/viz/AirBnbFullProject_16462318058180/Dashboard1) criei um Dashboard seguindo o tutorial de Alex, utilizando uma base de dados da AirBnb que está disponível no [Kaggle](https://www.kaggle.com/datasets).
+
 ## Data Analysis and Visualization
  
 Em Data analysis as libraries trabalhadas serão:
@@ -23,8 +21,16 @@ Em Data analysis as libraries trabalhadas serão:
 * Seaborn
 * Plotly and Cufflinks
  
+### Anaconda
  
-### Numpy
+O recurso que utilizei para gerar os gráficos e realizar as análises com python foi o Jupyter Notebook, que é o ambiente de desenvolvimento muito popular nessa área.
+Esse environment está disponível na Anaconda. Todas as informações para fazer o seu download estão no site [Anaconda](https://www.anaconda.com/).
+Ela faz o download da versão do python que integra bem com essa versão que será instalada, além de incluir várias libraries, então não precisa se preocupar em instalar o python previamente.
+Os environments são apresentados dessa forma no Anaconda:
+ 
+<img src="/Images/conda.png" alt="conda image"/>
+ 
+ ### Numpy
  
 Numpy é uma library de algebra linear para Python. Ele é muito rápido e a maioria das libras é baseada no numpy.
 Para instalar o numpy usando o anaconda, você pode rodar o seguinte comando
@@ -113,4 +119,3 @@ E no [Cufflinks git hub](https://github.com/santosjorge/cufflinks) é possível 
 ## Projetos
 
 Ao final do curso realizei dois projetos propostos pelo instrutor, eles estao na pasta DataVisualization/Projects. Estes projetos tiveram por finalidade analisar dados para trazer respostas aos problemas expostos. O primeiro é um projeto do 911 que apresenta dados das chamadas feitas para esse serviço para analisar de qual região são realizadas as chamadas, motivo, entre outras coisas. O segundo realiza uma análise exploratória de ativos de importantes bancos norte americanas durante a crise financeira do ano de 2016.
-
