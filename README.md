@@ -1,14 +1,17 @@
 # Data Science
  
 Neste repo vou compartilhar os meus estudos em Data Science. Subdivido em dois pontos, que são: Data Analysis e alguns tópicos de Machine Learning.
+
 O meu foco inicial e principal é Data Analysis, é sobre esse universo que quero me especializar um pouco mais.
+
 O conteúdo que venho estudando faz parte de um curso da Udemy chamado [Python for Data Science and Machine Learning Bootcamp](https://www.udemy.com/course/python-for-data-science-and-machine-learning-bootcamp). Esse curso é subdividido em Data Analysis/Visualization e Machine Learning, os exercícios que fiz podem ser vistos na pasta de DataVisualization/Exercises. 
+
 Além desse curso, estudei alguns conteúdos por tutoriais no canal do Youtube de [Alex](https://www.youtube.com/c/AlexTheAnalyst/videos). Ele trabalha como Data Analyst e tem um conteúdo muito bom sobre o Tableau e SQL.
  
 # Tableau
 
-Tableau faz parte de um dos conteúdos que queria muito estudar, ela é uma ferramenta bem importante dessa parte de analise de dados, com ela é possível criar gráficos e construir dashboard bem interativos.
-Os Dashboards criados podem ser upados no própio site do [Tableau Public](https://www.tableau.com/). Lá também tem informações das versões disponíveis para download de acordo com o seu sistema operacional.
+Tableau faz parte de um dos conteúdos que queria muito estudar, ela é uma ferramenta bem importante nessa parte de analise de dados, com ela é possível criar gráficos e construir dashboard bem interativos. Os Dashboards criados podem ser upados no própio site do [Tableau Public](https://www.tableau.com/). Lá também tem informações das versões disponíveis para download de acordo com o seu sistema operacional.
+
 Nesse [link](https://public.tableau.com/app/profile/gabriella6718/viz/AirBnbFullProject_16462318058180/Dashboard1) criei um Dashboard seguindo o tutorial de Alex, utilizando uma base de dados da AirBnb que está disponível no [Kaggle](https://www.kaggle.com/datasets).
 
 ## Data Analysis and Visualization
@@ -24,7 +27,9 @@ Em Data analysis as libraries trabalhadas serão:
 ### Anaconda
  
 O recurso que utilizei para gerar os gráficos e realizar as análises com python foi o Jupyter Notebook, que é o ambiente de desenvolvimento muito popular nessa área.
+
 Esse environment está disponível na Anaconda. Todas as informações para fazer o seu download estão no site [Anaconda](https://www.anaconda.com/).
+
 Ela faz o download da versão do python que integra bem com essa versão que será instalada, além de incluir várias libraries, então não precisa se preocupar em instalar o python previamente.
 Os environments são apresentados dessa forma no Anaconda:
  
@@ -33,6 +38,7 @@ Os environments são apresentados dessa forma no Anaconda:
  ### Numpy
  
 Numpy é uma library de algebra linear para Python. Ele é muito rápido e a maioria das libras é baseada no numpy.
+
 Para instalar o numpy usando o anaconda, você pode rodar o seguinte comando
  
 `conda install numpy`
@@ -48,6 +54,7 @@ Existem vários métodos para criar uma infinidade de tipos de arrays e matrizes
 ### Pandas
  
 Pandas e uma library open source, baseado no numpy.  Permite realizar análises, e preparação e limpeza de dados, tem vários recursos de data vizualization. E é possível trabalhar com pandas para uma variedade de fontes de dados.
+
 Para instalar o pandas basta rodar o comando no terminal.
  
  
@@ -114,6 +121,7 @@ e
 `pip install cufflinks`
 
 No web site do [Plotly](https://plotly.com/) é possivel subir um dashboard com todas as vizualições que estamos trabalhando.
+
 E no [Cufflinks git hub](https://github.com/santosjorge/cufflinks) é possível encontrar mais informações sobre essa library.
 
 ## Projetos
